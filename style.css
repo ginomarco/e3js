@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'BioRhyme', serif;
+}
+
+body{
+    width: 100%;
+    background-image:url("./img/fondo.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.hero {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.hero h1{
+    font-size: 50px;
+    text-shadow: ;
+}
+
+#inputnumber{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 12px;
+    border: 2px solid;
+}
+
+#search{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    background-color: #f5a614;
+    padding: 8px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.90) 0px 10px 12px;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: rgba(85, 82, 82, 0.9) 0px 10px 12px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pizzaImgContainer img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border:#ffffff 2px solid;
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.error {
+    color: #f81f1f;
+    text-shadow:  rgba(0, 0, 0, 0.8) 2px 2px 4px;
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    }
